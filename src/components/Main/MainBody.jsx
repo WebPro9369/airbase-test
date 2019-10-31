@@ -44,6 +44,7 @@ const MainBody = ({
           </div>
         </div>
       </div>
+      <div className="border-section" />
       <div className="right-section">
         <ApproverList approvers={approvers} />
       </div>

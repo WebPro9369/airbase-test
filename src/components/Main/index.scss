@@ -61,6 +61,17 @@
       }
     }
 
+    .border-section {
+      height: 0px;
+      background-color: #efefef50;
+
+      @media screen and (max-width: 768px) {
+        height: 6px;
+        border-top: 1px solid #22222205;
+        border-bottom: 1px solid #22222205;
+      }
+    }
+
     .right-section {
       width: 40%;
 
@@ -87,7 +98,12 @@
 
 .footer-wrapper {
   padding-left: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 15px;  
+
+  @media screen and (max-width: 768px) {
+    padding-top: 30px;
+    background-color: #efefef50;
+  }
 }
 
 .main-footer {
