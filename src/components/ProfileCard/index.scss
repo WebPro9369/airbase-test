@@ -1,0 +1,11 @@
+.profile-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  .picture-wrapper {
+    width: 24px;
+    margin-right: 8px;
+  }
+}

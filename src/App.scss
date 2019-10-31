@@ -1,36 +1,16 @@
+html,
+body,
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #efefef50;
+}
+
 .App {
   text-align: center;
   max-width: 852px;
   margin: 0 auto;
-}
-
-.header-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-
-  .logo-wrapper {
-    padding-top: 48px;
-    padding-bottom: 24px;
-  }
-
-  .security-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-  }
-
-  .header-text {
-    font-size: 12px;
-  }
-
-  .text-orange {
-    color: #FFA03D;
-  }
-
-  .text-grey {
-    color: #222222;
-  }
 }

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const MainHeader = ({ logo, name, usageCount }) => (
   <div className="header">
     <div className="request-avatar">
-      <img src={logo} alt="" />
+      <img src={logo} width="100%" alt="" />
     </div>
     <div className="request-for">
       Request for {name} (#{usageCount})

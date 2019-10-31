@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import "./index.scss";
+
 const DataCell = ({label, content}) => (
   <div className="datacell-container">
     <div className="datacell-label">{label}</div>

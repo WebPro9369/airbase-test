@@ -1,0 +1,49 @@
+.request-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 12px;
+  padding: 15px 0;
+
+  .number {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #D8D8D8;
+    color: #222222;
+  }
+
+  .avatar-wrapper {
+    max-width: 24px;
+    margin: 0 8px;
+  }
+
+  .content-wrapper {
+    flex: 1;
+
+    .user-info-wrapper {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      .name {
+        padding: 2px 0;
+        text-align: left;
+        font-size: 14px;
+        color: #222222;
+      }
+
+      .email {
+        padding: 2px 0;
+        font-size: 12px;
+        color: #D8D8D8;
+      }
+    }
+
+    .date-wrapper {
+      padding: 2px 0;
+      text-align: left;
+    }
+  }
+}
