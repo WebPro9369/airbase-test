@@ -27,11 +27,13 @@ const ContentTable = ({
     <div className="datacell-wrapper">
       <DataCell label="Cost" content={`$${cost}`} />
     </div>
-    <div className="datacell-wrapper half-width">
-      <DataCell label="Renewal Frequency" content={`${renewalFreq} month`} />
-    </div>
-    <div className="datacell-wrapper half-width">
-      <DataCell label="Annual Cost" content={`$${annualCost}`} />
+    <div className="data-half-cells">
+      <div className="datacell-wrapper half-width">
+        <DataCell label="Renewal Frequency" content={`${renewalFreq} month`} />
+      </div>
+      <div className="datacell-wrapper half-width">
+        <DataCell label="Annual Cost" content={`$${annualCost}`} />
+      </div>
     </div>
     <div className="datacell-wrapper">
       <DataCell label="Expense Account" content={expenseAccount} />

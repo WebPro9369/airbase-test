@@ -46,6 +46,19 @@
         border: 1px solid #22222205;
         border-radius: 8px;
       }
+
+      .data-half-cells {
+        display: flex;
+
+        @media screen and (max-width: 768px) {
+          display: block;
+        }
+
+        .half-width {
+          flex: 1;
+          border-right: 1px solid #22222205;
+        }
+      }
     }
 
     .right-section {
